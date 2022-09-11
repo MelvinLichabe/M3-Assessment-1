@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "my-reactive-app",
+    "slug": "my-reactive-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./src/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./src/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./src/favicon.png"
+    }
+  }
+}
